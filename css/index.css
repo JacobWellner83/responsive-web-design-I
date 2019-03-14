@@ -170,7 +170,7 @@ img {
 @media( max-width: 800px) {
     nav {
         flex-wrap: wrap-reverse;
-        justify-content: center;
+        justify-content: space-around;
     }
 }
 @media( max-width: 800px) {
@@ -182,9 +182,14 @@ img {
 }
 @media( max-width: 800px) {
     .logo {
-        width: 55%;
-        height: 70px;
+        width: 50%;
+        height: 65px;
         order: 1;
+    }
+}
+@media( max-width: 800px ) {
+    .box1 {
+        width: 50%;
     }
 }
 @media( max-width: 500px) {
@@ -195,6 +200,11 @@ img {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+}
+@media( max-width: 500px ) {
+    .box1 {
+        width: 100%;
     }
 }
 @media( max-width: 500px ) {
