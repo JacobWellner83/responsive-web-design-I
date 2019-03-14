@@ -151,7 +151,7 @@ img {
 }
 @media( max-width: 800px ) {
     .fcomplex {
-        visibility: hidden;
+        display: none;
     }
 }
 @media( max-width: 800px ) {
