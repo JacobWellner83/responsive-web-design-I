@@ -247,3 +247,13 @@ img {
         align-items: center;
     }
 }
+@media( max-width: 500px ) {
+    p {
+        justify-content: flex-start;
+    }
+}    
+@media( max-width: 500px ) {
+    h1 {
+        justify-content: flex-start;
+    }
+}
