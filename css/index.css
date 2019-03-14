@@ -173,7 +173,11 @@ img {
         align-items: center:
     }
 }
-
+@media( max-width: 800px) {
+    .logo {
+        width: 80%;
+    }
+}
 @media( max-width: 500px ) {
     .fcomplex {
         visibility: hidden;
