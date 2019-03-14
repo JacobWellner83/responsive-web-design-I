@@ -170,12 +170,12 @@ img {
     .headerbutton {
         justify-content: center;
         width: 100%;
-        align-items: center:
+        align-items: center;
     }
 }
 @media( max-width: 800px) {
     .logo {
-        width: 80%;
+        width: 60%;
     }
 }
 @media( max-width: 500px ) {
@@ -194,18 +194,20 @@ img {
 @media( max-width: 500px ) {
     footer {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 }
 @media( max-width: 500px ) {
     .body1 {
         flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
     }
 }
 @media( max-width: 500px ) {
     .body2 {
         flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
     }
 }
 @media( max-width: 500px ) {
